@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		950F25AF16E3D9B700E62B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 950F25AB16E3D9B700E62B74 /* AppDelegate.m */; };
 		950F25B016E3D9B700E62B74 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950F25AD16E3D9B700E62B74 /* CollectionViewController.m */; };
-		950F25B116E3D9B700E62B74 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950F25AE16E3D9B700E62B74 /* CollectionViewController.xib */; };
 		950F25BC16E3D9C500E62B74 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 950F25B416E3D9C500E62B74 /* Default-568h@2x.png */; };
 		950F25BD16E3D9C500E62B74 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 950F25B516E3D9C500E62B74 /* Default.png */; };
 		950F25BE16E3D9C500E62B74 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 950F25B616E3D9C500E62B74 /* Default@2x.png */; };
@@ -27,7 +26,6 @@
 		950F25AB16E3D9B700E62B74 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		950F25AC16E3D9B700E62B74 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = Example/CollectionViewController.h; sourceTree = SOURCE_ROOT; };
 		950F25AD16E3D9B700E62B74 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewController.m; path = Example/CollectionViewController.m; sourceTree = SOURCE_ROOT; };
-		950F25AE16E3D9B700E62B74 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewController.xib; path = Example/CollectionViewController.xib; sourceTree = SOURCE_ROOT; };
 		950F25B216E3D9C500E62B74 /* CustomPositionLayoutExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CustomPositionLayoutExample-Info.plist"; path = "Example/CustomPositionLayoutExample-Info.plist"; sourceTree = SOURCE_ROOT; };
 		950F25B316E3D9C500E62B74 /* CustomPositionLayoutExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CustomPositionLayoutExample-Prefix.pch"; path = "Example/CustomPositionLayoutExample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		950F25B416E3D9C500E62B74 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Example/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -102,7 +100,6 @@
 				950F25AB16E3D9B700E62B74 /* AppDelegate.m */,
 				950F25AC16E3D9B700E62B74 /* CollectionViewController.h */,
 				950F25AD16E3D9B700E62B74 /* CollectionViewController.m */,
-				950F25AE16E3D9B700E62B74 /* CollectionViewController.xib */,
 				950F25C416E3D9E200E62B74 /* CustomCollectionViewFlowLayout.h */,
 				950F25C516E3D9E200E62B74 /* CustomCollectionViewFlowLayout.m */,
 				950F25C116E3D9D100E62B74 /* ShinyCollectionViewFlowLayout.h */,
@@ -178,7 +175,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950F25B116E3D9B700E62B74 /* CollectionViewController.xib in Resources */,
 				950F25BC16E3D9C500E62B74 /* Default-568h@2x.png in Resources */,
 				950F25BD16E3D9C500E62B74 /* Default.png in Resources */,
 				950F25BE16E3D9C500E62B74 /* Default@2x.png in Resources */,

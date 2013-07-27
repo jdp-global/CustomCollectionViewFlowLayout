@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ShinyCollectionViewFlowLayout.h"
 
-@interface CollectionViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegate>
-@property (retain, nonatomic) IBOutlet UICollectionView *collectionView;
-@property (retain, nonatomic) IBOutlet UICollectionViewFlowLayout *layout;
+@interface CollectionViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegate>{
+    ShinyCollectionViewFlowLayout *flowLayout;
+}
+@property (retain, nonatomic)  UICollectionView *collectionView;
+
 
 @end

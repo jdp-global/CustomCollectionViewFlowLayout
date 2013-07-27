@@ -31,7 +31,8 @@
 // from both init and initWithCoder methods.
 - (void)setup
 {
-    self.scrollDirection = UICollectionViewScrollDirectionVertical;
+    NSLog(@"UICollectionViewScrollDirectionHorizontal");
+    self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
 }
 
 -(int)itemsPerRow
